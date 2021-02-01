@@ -1,0 +1,10 @@
+name: VoitifierTester
+version: ${project.version}
+main: me.pljr.voitifiertester.VoitifierTester
+api-version: 1.13
+depend: [ PLJRApi-Spigot, Votifier ]
+authors: [ 9hx ]
+description: Plugin for testing Votifier Vote event.
+commands:
+  votifiertester:
+    description: Main command
